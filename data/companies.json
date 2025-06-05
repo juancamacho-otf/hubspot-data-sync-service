@@ -1,0 +1,407 @@
+[
+  {
+    "properties": {
+      "location_id": "3",
+      "name": "Citadel of Ricks",
+      "location_type": "Space station",
+      "dimension": "unknown",
+      "creation_date": "1510272000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "20",
+      "name": "Earth (Replacement Dimension)",
+      "location_type": "Planet",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1510963200000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "21",
+      "name": "Testicle Monster Dimension",
+      "location_type": "Dimension",
+      "dimension": "Testicle Monster Dimension",
+      "creation_date": "1510963200000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "5",
+      "name": "Anatomy Park",
+      "location_type": "Microverse",
+      "dimension": "Dimension C-137",
+      "creation_date": "1510272000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "7",
+      "name": "Immortality Field Resort",
+      "location_type": "Resort",
+      "dimension": "unknown",
+      "creation_date": "1510272000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "6",
+      "name": "Interdimensional Cable",
+      "location_type": "TV",
+      "dimension": "unknown",
+      "creation_date": "1510272000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "23",
+      "name": "Earth (C-500A)",
+      "location_type": "Planet",
+      "dimension": "Dimension C-500A",
+      "creation_date": "1510963200000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "48",
+      "name": "Fantasy World",
+      "location_type": "Planet",
+      "dimension": "Fantasy Dimension",
+      "creation_date": "1514505600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "35",
+      "name": "Planet Squanch",
+      "location_type": "Planet",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1514246400000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "25",
+      "name": "The Menagerie",
+      "location_type": "Menagerie",
+      "dimension": "unknown",
+      "creation_date": "1512000000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "1",
+      "name": "Earth (C-137)",
+      "location_type": "Planet",
+      "dimension": "Dimension C-137",
+      "creation_date": "1510272000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "27",
+      "name": "Hideout Planet",
+      "location_type": "Planet",
+      "dimension": "unknown",
+      "creation_date": "1512000000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "14",
+      "name": "Giant's Town",
+      "location_type": "Fantasy town",
+      "dimension": "Fantasy Dimension",
+      "creation_date": "1510963200000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "13",
+      "name": "Nuptia 4",
+      "location_type": "Planet",
+      "dimension": "unknown",
+      "creation_date": "1510963200000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "9",
+      "name": "Purge Planet",
+      "location_type": "Planet",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1510272000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "46",
+      "name": "Zigerion's Base",
+      "location_type": "Space station",
+      "dimension": "Dimension C-137",
+      "creation_date": "1514505600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "50",
+      "name": "Kyle's Teenyverse",
+      "location_type": "Teenyverse",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1514592000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "40",
+      "name": "Gazorpazorp",
+      "location_type": "Planet",
+      "dimension": "unknown",
+      "creation_date": "1514505600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "44",
+      "name": "Jerryboree",
+      "location_type": "Daycare",
+      "dimension": "unknown",
+      "creation_date": "1514505600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "16",
+      "name": "St. Gloopy Noops Hospital",
+      "location_type": "Space station",
+      "dimension": "unknown",
+      "creation_date": "1510963200000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "56",
+      "name": "Mega Gargantuan Kingdom",
+      "location_type": "Microverse",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1514678400000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "47",
+      "name": "Pluto",
+      "location_type": "Dwarf planet (Celestial Dwarf)",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1514505600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "78",
+      "name": "Snake Planet",
+      "location_type": "Planet",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1588377600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "126",
+      "name": "Rick's Memories",
+      "location_type": "Memory",
+      "dimension": "",
+      "creation_date": "1635811200000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "70",
+      "name": "Snuffles' Dream",
+      "location_type": "Dream",
+      "dimension": "Dimension C-137",
+      "creation_date": "1523750400000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "74",
+      "name": "Earth (Chair Dimension)",
+      "location_type": "Planet",
+      "dimension": "Chair Dimension",
+      "creation_date": "1523836800000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "32",
+      "name": "Roy: A Life Well Lived",
+      "location_type": "Game",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1514246400000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "77",
+      "name": "Earth (Fascist Dimension)",
+      "location_type": "Planet",
+      "dimension": "Fascist Dimension",
+      "creation_date": "1588377600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "80",
+      "name": "Earth (Fascist Shrimp Dimension)",
+      "location_type": "Planet",
+      "dimension": "Fascist Shrimp Dimension",
+      "creation_date": "1588377600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "82",
+      "name": "Earth (Wasp Dimension)",
+      "location_type": "Planet",
+      "dimension": "Wasp Dimension",
+      "creation_date": "1588377600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "88",
+      "name": "Heist-Con",
+      "location_type": "Convention",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1588809600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "89",
+      "name": "Heistotron Base",
+      "location_type": "Space station",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1588809600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "94",
+      "name": "Draygon",
+      "location_type": "Planet",
+      "dimension": "Magic Dimension",
+      "creation_date": "1588809600000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "97",
+      "name": "Non-Diegetic Alternative Reality",
+      "location_type": "Non-Diegetic Alternative Reality",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1596672000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "96",
+      "name": "Story Train",
+      "location_type": "Diegesis",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1596672000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "99",
+      "name": "Morty’s Story",
+      "location_type": "Diegesis",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1596672000000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "101",
+      "name": "Glorzo Asteroid",
+      "location_type": "Asteroid",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1596758400000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "104",
+      "name": "Near-Duplicate Reality",
+      "location_type": "Reality",
+      "dimension": "Unknown dimension",
+      "creation_date": "1597276800000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "103",
+      "name": "Merged Universe",
+      "location_type": "Dimension",
+      "dimension": "Merged Dimension",
+      "creation_date": "1597276800000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "110",
+      "name": "Narnia Dimension",
+      "location_type": "Dimension",
+      "dimension": "Fantasy Dimension",
+      "creation_date": "1634342400000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "117",
+      "name": "Z. Q. P. D.",
+      "location_type": "Police Department",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1634428800000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "118",
+      "name": "Space Tahoe",
+      "location_type": "",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1634428800000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "125",
+      "name": "Rick and Two Crows Planet",
+      "location_type": "Planet",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1635811200000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "124",
+      "name": "Slartivart",
+      "location_type": "Planet",
+      "dimension": "Replacement Dimension",
+      "creation_date": "1635811200000"
+    }
+  },
+  {
+    "properties": {
+      "location_id": "30",
+      "name": "Earth (Unknown dimension)",
+      "location_type": "Planet",
+      "dimension": "unknown",
+      "creation_date": "1512086400000"
+    }
+  }
+]
