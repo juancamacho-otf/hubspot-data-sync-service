@@ -5,59 +5,82 @@ exports.handleCompanyUpsert = async (req, res, next) => {
   try {
     const {
       location_id,
-      location_name,
+      name,
       location_type,
-      resident_count
+      dimension,
+      creation_date
     } = req.body;
 
-    const companyData = {
-      properties: {
-        location_id,
-        location_name,
-        location_type,
-        resident_count
-      }
+    const locationIdStr = location_id?.toString();
+    let creationDateStr = undefined;
+    if (creation_date) {
+      creationDateStr = typeof creation_date === 'number'
+        ? creation_date.toString()
+        : creation_date;
+    }
+
+    const companyPropsBase = {
+      name,
+      location_type,
+      dimension,
+      creation_date: creationDateStr
     };
 
-    // 1. Search for existing company
+    console.log(`🔍 Buscando compañía con location_id: ${locationIdStr}`);
+
+    // ✅ FIX: No uses `body:` aquí
     const searchResponse = await hubspotClient.crm.companies.searchApi.doSearch({
-      body: {
-        filterGroups: [
-          {
-            filters: [
-              {
-                propertyName: 'location_id',
-                operator: 'EQ',
-                value: location_id
-              }
-            ]
-          }
-        ],
-        properties: ['location_id']
-      }
+      filterGroups: [
+        {
+          filters: [
+            {
+              propertyName: 'location_id',
+              operator: 'EQ',
+              value: locationIdStr
+            }
+          ]
+        }
+      ],
+      properties: ['location_id', 'name', 'location_type', 'dimension', 'creation_date']
     });
+
+    const foundCompany = searchResponse.results.find(
+      company => company.properties?.location_id === locationIdStr
+    );
 
     let companyId;
     let action;
 
-    if (searchResponse.results.length > 0) {
-      companyId = searchResponse.results[0].id;
-      await hubspotClient.crm.companies.basicApi.update(companyId, { properties: companyData.properties });
+    if (foundCompany) {
+      companyId = foundCompany.id;
+      console.log(`✏️ Compañía encontrada (ID: ${companyId}), actualizando...`);
+
+      await hubspotClient.crm.companies.basicApi.update(companyId, {
+        properties: companyPropsBase
+      });
+
       action = 'updated';
-      console.log(`Company ${companyId} updated`);
     } else {
-      const created = await hubspotClient.crm.companies.basicApi.create({ properties: companyData.properties });
+      console.log('➕ No se encontró compañía, creando nueva...');
+
+      const created = await hubspotClient.crm.companies.basicApi.create({
+        properties: {
+          ...companyPropsBase,
+          location_id: locationIdStr // Solo al crear
+        }
+      });
+
       companyId = created.id;
       action = 'created';
-      console.log(`Company ${companyId} created`);
     }
 
     return res.status(200).json({
       message: `Company ${action} successfully`,
       companyId
     });
+
   } catch (error) {
-    console.error('Error while processing company:', error.message);
+    console.error('❌ Error while processing company:', error?.body || error.message);
     next(error);
   }
 };
