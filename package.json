@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "step1":"node migration/fetchCharacters.js",
+    "step2":"node migration/transformCharacters.js",
+    "step3":"node migration/transformLocations.js",
+    "step4":"node migration/uploadContacts.js",
+    "step5":"node migration/uploadCompanies.js",
+    "step6":"node migration/mapAssociations.js",
+    "step7":"node migration/uploadAssociations.js",
     "start": "node src/index.js"
   },
   "keywords": [],
